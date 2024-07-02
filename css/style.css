@@ -85,14 +85,14 @@ nav a:hover {
 .info .avatar .img {
 
     width: 270px;
-    background: url("../Assets/IMG_20240621_180429.jpg");
+    background: url("../Assets/IMG_20240415_212655.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     height: 270px;
     border-radius: 10%;
     opacity: 1;
     transition: .8s;
-    box-shadow: 0px 0px 70px 70px #e0d4d4;
+    box-shadow: 0px 0px 70px 70px #363434;
 
 }
 
