@@ -828,13 +828,13 @@ footer .wrapper .icons a i:hover{
         line-height: 1.2rem;
     }
     .section-one {
-        height: 80vh;
+        height: 110vh;
    }
     .section-two {
      height: 70vh;  
 }
 .section-three {
-    display:none;
+    height:70vh;
 }
 .section-five{
    height: 70vh;
