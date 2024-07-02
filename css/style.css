@@ -834,6 +834,7 @@ footer .wrapper .icons a i:hover{
      height: 70vh;  
 }
 .section-three {
+    display:none;
   height: 30vh;
 }
 .section-five{
