@@ -686,10 +686,13 @@ footer .wrapper .icons a i:hover{
         height: 30%;
         cursor: pointer;
         transition: .7s;
-
+           box-shadow: none;
     }
 
     .block .image {
+        box-shadow: 18px 19px 23px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 18px 19px 23px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 18px 19px 23px 0px rgba(0,0,0,0.75);
         border-bottom-left-radius: 7%;
         border-bottom-right-radius: 7%;
     }
