@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "D16djqtXG6D3XDPSy",
+            });
+        })();
+    </script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <section class="section-one">
+        <div class="wrapper">
+            <nav>
+
+                <a href="#section2">ABOUT ME</a>
+                <a href="#section3">MY SKILLS</a>
+                <a href="#section4">MY WORKS</a>
+                <a href="#section5">CONTACT ME</a>
+
+            </nav>
+            <div class="info">
+
+                <h1>Welcome to my portfolio!</h1>
+                <div class="avatar">
+                    <div class="img"></div>
+                    <p>I’m Avet Kirakosyan,I’m <br>
+                        front-end developer and I<br>
+                        want to introduce you my CV․</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section-two" id="section2">
+        <div class="wrapper">
+            <div id="about">
+                <h1>About Me</h1>
+                <p>My name is Avet Kirakosyan,I’m 16 old<br>
+                    boy from Armenia, computers have<br>
+                    been interesting to me since my<br>
+                    childhood.When I have free time, <br>
+                    I write programs or watch Youtube<br>
+                    lessons to improve my skills and get<br>
+                    new skills.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-three"  id="section3">
+        <div class="wrapper">
+            <div id="skills">
+                <h1>My Skills</h1>
+                <p>Of course front-end developer must know HTML,<br>
+                    CSS,JS but also I’m improving my back-end<br>
+                    skills, skills which are related databases, learning<br>
+                    React.js and other JS libraries, that’s all before<br>
+                    enrolling in university․
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section-four"  id="section4">
+        <div class="wrapper">
+            <div id="myworks">
+                <div class="text">
+                    <h1>My Works</h1>
+                </div>
+                <div class="works">
+                    <div class="first">
+                        <div class="block">
+                            <a href="../Assets/blanko.png"><div class="image"></div></a>
+                            <div class="name">
+                                <p>Blanko</p>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a href="../Assets/castaway.png">  <div class="image"> </div></a>
+                            <div class="name">
+                                <p>Castaway</p>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a href="../Assets/freebie.png">   <div class="image"> </div></a>
+                            <div class="name">
+                                <p>Freebie</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="block">
+                         <a href="../Assets/rumtibet.png"><div class="image"></div></a>   
+                            <div class="name">
+                                <p>Rumtibet</p>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a href="../Assets/mitravel.png"><div class="image"></div> </a>
+                            <div class="name">
+                                <p>Mitravel</p>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a href="../Assets/quiz.png"><div class="image"></div> </a>
+                            <div class="name">
+                                <p>Quiz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-five"  id="section5">
+        <div class="wrapper">
+            <div class="contact">
+                <h1>Contact Me</h1>
+
+                <form action="https://formsubmit.co/avetkirakosyan28@gmail.com" method="POST">
+                    <input type="name" name="name of user" placeholder="Enter your name" >
+                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="hidden" name="_autoresponse" value="Hello! We will answer you soon :)">
+                    <input type="text" name="message" placeholder="Enter your message" >
+                    <button id="but" type="submit"><span>Send</span></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <div class="info">
+                <p>phone number:+37477166733</p>
+                <p>email: avetkirakosyan28@gmail.com</p>
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100093601881660" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/avvveet/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://github.com/AvetevA" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://t.me/TevaveT" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/ed19f75ec0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

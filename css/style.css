@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    overflow-x: hidden;
+    transition: .8s;
+}
+
+
+
+.section-one {
+
+    width: 100%;
+    height: 160vh;
+    background: url("../Assets/enlarge_section1bg.png");
+    background-position: top;
+    background-size: cover;
+}
+
+.wrapper {
+
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+
+}
+
+.section-one .wrapper {
+
+    flex-direction: column;
+
+
+}
+
+nav {
+    transition: .8s;
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 80px;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #C75D5D;
+    font-family: "Koulen", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    font-style: normal;
+    font-size: 1.7rem;
+    transition: .7s;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: #f7abab;
+}
+
+.info {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.info .avatar .img {
+
+    width: 270px;
+    background: url("../Assets/IMG_20240621_180429.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 270px;
+    border-radius: 10%;
+    opacity: 1;
+    transition: .8s;
+    box-shadow: 0px 0px 70px 70px #e0d4d4;
+
+}
+
+  
+
+.info .avatar {
+    padding-top: 15%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+}
+
+.info h1 {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #513B04;
+
+}
+
+.info .avatar p {
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.6rem;
+    color: #969090;
+
+}
+
+
+.section-two {
+
+
+    width: 100%;
+    height: 90vh;
+    background: url("../Assets/enlarge_section-2.png");
+    background-size: cover;
+    background-position: right;
+}
+
+.section-two .wrapper {
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+#about {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20%;
+}
+
+#about h1 {
+
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 0.07rem;
+}
+
+#about p {
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 200;
+    font-size: 1.7rem;
+    color: white;
+    line-height: 2.5rem;
+    letter-spacing: 0.07rem;
+}
+
+.section-three {
+
+    width: 100%;
+    height: 90vh;
+    background: url("../Assets/enlarge_section-3.png");
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.section-three #skills {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 5%;
+    gap: 20%;
+}
+
+.section-three #skills h1 {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+
+}
+
+.section-three #skills p {
+
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+
+.section-four {
+
+    width: 100%;
+    height: 100vh;
+    background: url("../Assets/enlarge_section-4.png");
+    background-size: cover;
+
+}
+
+#myworks {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#myworks .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+
+}
+
+#myworks .works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    gap: 10%;
+}
+
+#myworks .text h1 {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 2rem;
+
+}
+
+#myworks .works .first {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    gap: 5%;
+}
+
+#myworks .works .second {
+    display: flex;
+    width: 100%;
+    height: 40%;
+
+    gap: 5%;
+}
+
+.block {
+
+    width: 30%;
+    height: 100%;
+    cursor: pointer;
+    transition: .7s;
+
+    box-shadow: 18px 19px 23px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 18px 19px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 18px 19px 23px 0px rgba(0,0,0,0.75);
+}
+
+.block .image {
+    height: 85%;
+    width: 100%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    transition: .8s;
+}
+
+.block .image:hover {
+    box-shadow: 39px 31px 27px 7px rgba(0, 0, 0, 0.83);
+    -webkit-box-shadow: 39px 31px 27px 7px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: 39px 31px 27px 7px rgba(0, 0, 0, 0.83);
+    transform: scale(1.1);
+}
+
+.block .name {
+    width: 100%;
+    height: 15%;
+    background: #313030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .7s;
+}
+.block .name p{
+
+text-shadow: 4px 2px 15px #CECECE;
+
+}
+.first .block:nth-child(1) .image {
+    background: url("../Assets/blanko.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.first .block:nth-child(2) .image {
+    background: url("../Assets/castaway.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.first .block:nth-child(3) .image {
+    background: url("../Assets/freebie.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.second .block:nth-child(1) .image {
+    background: url("../Assets/rumtibet.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.second .block:nth-child(2) .image {
+    background: url("../Assets/mitravel.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.second .block:nth-child(3) .image {
+    background: url("../Assets/quiz.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.name p {
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 1rem;
+}
+
+.section-five {
+    width: 100%;
+    height: 90vh;
+    background: url("../Assets/overlay\ rp.jpeg");
+    background-size: cover;
+
+}
+
+.section-five .contact {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.section-five .contact h1 {
+
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+.section-five .contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    gap: 10%;
+    align-items: center;
+
+}
+
+.section-five .contact form input {
+
+    width: 30%;
+    height: 15%;
+    text-indent: 5%;
+}
+
+.section-five .contact form button {
+    cursor: pointer;
+    width: 15%;
+    height: 13%;
+    border: none;
+    background: #413C3C;
+    transition: .6s;
+}
+
+.section-five .contact form button:hover {
+    transform: scale(1.1);
+    border-radius: 10%;
+}
+
+.section-five .contact form button span {
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+footer {
+
+    width: 100%;
+    height: 13vh;
+    background-color: #484848;
+}
+
+footer .wrapper {
+
+    display: flex;
+    gap:40%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .wrapper .info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   height: 100%;
+    width: 30%;
+}
+
+footer .wrapper .info p {
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    color: white;
+
+}
+
+footer .wrapper .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+  
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .wrapper .icons a {
+    transition: .7s;
+    text-decoration: none;
+    color:white;
+    border-radius: 10%;
+    font-size: 2rem;
+}
+footer .wrapper .icons a:hover {
+
+    transform: scale(1.3);
+  
+}
+footer .wrapper .icons a i{
+
+    transition: .7s;
+
+}
+footer .wrapper .icons a i:hover{
+
+    box-shadow: 39px 31px 27px 7px rgba(0, 0, 0, 0.83);
+    -webkit-box-shadow: 39px 31px 27px 7px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: 29px 21px 17px 7px rgba(0, 0, 0, 0.83);
+
+}
+@media only screen and (max-height:600px) and (max-width: 768px) {
+
+    .section-two {
+        height: 130vh;
+    }
+
+    .section-one {
+        height: 300vh;
+    }
+}
+
+@media only screen and (max-height:324px) and (max-width: 768px) {
+    .section-two {
+        height: 150vh;
+    }
+
+    .section-one {
+        height: 350vh;
+    }
+}
+
+@media only screen and (max-height:600px) and (max-width: 1448px) {
+
+    .section-two {
+        height: 200vh;
+    }
+
+    .section-one {
+        height: 300vh;
+    }
+
+    .section-three {
+        height: 300vh;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    nav {
+
+
+        gap: 40px;
+    }
+
+    nav a {
+
+
+        font-weight: 800;
+        letter-spacing: 0.17rem;
+
+
+    }
+
+    .info .avatar .img {
+
+        width: 240px;
+        height: 240px;
+
+
+        box-shadow: 0px 0px 50px 50px #e0d4d4;
+    }
+
+    .info .avatar {
+
+        gap: 5%;
+
+    }
+
+    .info .avatar p {
+
+
+        font-size: 1.2rem;
+
+
+    }
+
+    .section-two .wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-two .wrapper #about {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    nav {
+
+        gap: 25px;
+    }
+
+    nav a {
+
+
+        font-weight: 600;
+        letter-spacing: 0.14rem;
+        font-size: 1.5rem;
+
+    }
+
+    .info {
+
+        gap: 8%;
+
+    }
+
+    .info .avatar p {
+
+
+        font-size: 1.0rem;
+
+
+    }
+
+    .section-three #skills h1 {
+
+        font-size: 2.5rem;
+
+    }
+
+    .section-three #skills p {
+
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .info {
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+    .info .avatar {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .section-five .contact form input {
+
+        width: 70%;
+        height: 15%;
+
+    }
+
+    .section-five .contact form button span {
+
+        font-size: 0.9rem;
+
+    }
+
+    .section-five .contact form button {
+
+        width: 40%;
+    }
+
+    .info .avatar p {
+
+
+        font-size: 1.4rem;
+
+
+    }
+
+    .info .avatar {
+
+        gap: 15%;
+
+    }
+
+    .section-three #skills h1 {
+
+        font-size: 2.1rem;
+
+    }
+
+    .section-three #skills p {
+
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    #myworks .works {
+
+        gap: 10%;
+        height: 90%;
+    }
+
+    #myworks .works .first {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        gap: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #myworks .works .second {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        flex-direction: column;
+        gap: 10%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .block {
+
+        width: 90%;
+        height: 30%;
+        cursor: pointer;
+        transition: .7s;
+
+    }
+
+    .block .image {
+        border-bottom-left-radius: 7%;
+        border-bottom-right-radius: 7%;
+    }
+
+    .block .name {
+        display: none;
+    }
+
+    .section-four {
+        height: 350vh;
+        background-color: rgb(3, 3, 88);
+        background-image: none;
+    }
+
+    #myworks .text {
+        height: 5%;
+    }
+    footer .wrapper .info{
+        width: 0%;
+        height: 0;
+     display: none;
+    }
+    .icons {
+        font-size: 1.5rem;
+       width: 100%;
+       height: 100%;
+       justify-content: center;
+       align-items: center;
+
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    nav {
+        display: none;
+    }
+
+    .info h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .info {
+        height: 100%;
+        gap: 0;
+
+    }
+
+    .info .avatar p {
+
+
+        font-size: 1rem;
+
+
+    }
+
+    .info .avatar {
+
+        gap: 10%;
+
+    }
+
+    #about {
+        gap: 10%;
+    }
+
+    #about h1 {
+
+
+        font-weight: 300;
+        font-size: 1.7rem;
+        letter-spacing: 0.07rem;
+    }
+
+    #about p {
+        text-align: center;
+        font-weight: 100;
+        font-size: 0.8rem;
+        color: white;
+        line-height: 1.5rem;
+
+    }
+
+    .section-three #skills {
+        justify-content: center;
+        gap: 15%;
+    }
+
+    .section-three #skills h1 {
+
+        font-size: 1.7rem;
+
+    }
+
+    .section-three #skills p {
+
+        text-align: left;
+
+        font-size: 0.8rem;
+
+        line-height: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+
+    .section-three #skills p {
+
+        text-align: left;
+
+
+        font-size: 0.7rem;
+
+        line-height: 0.9rem;
+    }
+}
