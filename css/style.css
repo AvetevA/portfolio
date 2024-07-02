@@ -500,41 +500,7 @@ footer .wrapper .icons a i:hover{
     -moz-box-shadow: 29px 21px 17px 7px rgba(0, 0, 0, 0.83);
 
 }
-@media only screen and (max-height:600px) and (max-width: 768px) {
 
-    .section-two {
-        height: 130vh;
-    }
-
-    .section-one {
-        height: 300vh;
-    }
-}
-
-@media only screen and (max-height:324px) and (max-width: 768px) {
-    .section-two {
-        height: 150vh;
-    }
-
-    .section-one {
-        height: 350vh;
-    }
-}
-
-@media only screen and (max-height:600px) and (max-width: 1448px) {
-
-    .section-two {
-        height: 200vh;
-    }
-
-    .section-one {
-        height: 300vh;
-    }
-
-    .section-three {
-        height: 300vh;
-    }
-}
 
 @media only screen and (max-width: 1280px) {
     nav {
@@ -839,7 +805,6 @@ footer .wrapper .icons a i:hover{
 .section-five{
    height: 70vh;
 }
-
 }
 
 @media only screen and (max-width: 370px) {
@@ -852,5 +817,48 @@ footer .wrapper .icons a i:hover{
         font-size: 0.7rem;
 
         line-height: 0.9rem;
+    }
+}
+@media only screen and (max-height:600px) and (max-width: 768px) {
+
+    .section-two {
+        height: 130vh;
+    }
+
+    .section-one {
+        height: 300vh;
+    }
+}
+
+@media only screen and (max-height:600px) and (max-width:640px){
+
+
+   
+
+}
+@media only screen and (max-height:600px) and (max-width: 1448px) {
+
+    .section-two {
+        height: 200vh;
+    }
+
+    .section-one {
+        height: 300vh;
+    }
+
+    .section-three {
+        height: 150vh;
+    }
+    
+    .section-four {
+        height: 700vh;
+    }
+    .section-five {
+        height: 200vh;
+    }
+    footer{
+    
+        height: 30vh;
+    
     }
 }
